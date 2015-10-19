@@ -1,0 +1,51 @@
+
+/*top of the page, with the logo to the left and links
+to the right*/
+
+.space{
+	clear:both;
+
+
+}
+#logo{
+	float:left;
+	text-align: left;
+	width: 45%;
+	font-family: Helvetica;
+}
+/*the main heading*/
+
+.make{
+	background-color:purple;
+	width: 100%;
+	margin: auto;
+	text-align:center; 
+	padding:50px 0;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Helvetica;
+	color:white;
+}
+
+body{
+	width:940px;
+	margin:0 auto;
+}
+/*all the info text belove the purple heading*/
+
+nav {
+	text-align:right;
+	float:right;
+	width:45%;
+	font-family: Helvetica;
+
+}
+nav a{
+	margin:10px;
+}
+
+.left,.center,.right{
+	float:left;
+	width: 33.3%;
+	font-family: Helvetica;
+}
